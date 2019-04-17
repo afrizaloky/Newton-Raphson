@@ -5,7 +5,7 @@ from math import *
 
 #Definition Function
 x = var('x') 
-user_input = input("Enter the function (X**2 + 2*x + 2) = ")
+user_input = input("Enter the function (x**2 + 2*x + 2) = ")
 expr = sympify(user_input)
 x_old = float(input("Enter the value of X0 = "))
 RAE = float(input("Enter the value of tollerance (0.0001) = "))
